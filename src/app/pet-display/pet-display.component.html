@@ -1,0 +1,7 @@
+<section *ngIf="pet">
+  <h2>{{ pet.name }}</h2>
+  <img [src]="pet.imageUrl" alt="Picture of {{ pet.name }}">
+  <p>Age: {{ pet.age }}</p>
+  <p>Type: {{ pet.type }}</p>
+  <p>Vaccinated: {{ pet.vaccinated ? 'Yes' : 'No' }}</p>
+</section>
