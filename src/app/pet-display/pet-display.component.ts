@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PetService } from '../../services/pet.service';
-import { Pet } from '../../models/pet';
+import { PetService } from '../services.service';
+import { Pet } from '../models/pet';
 
 @Component({
   selector: 'app-pet-display',

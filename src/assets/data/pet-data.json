@@ -1,0 +1,11 @@
+{
+  "id": "20082",
+  "name": "Fluffy",
+  "petKind": "cat",
+  "breed": "domestic",
+  "owner": {
+    "firstName": "Jane",
+    "lastName": "Smith"
+  },
+  "picture": "fluffy.png"
+}
