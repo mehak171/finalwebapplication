@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-import { Pet } from '../models/pet';  // Make sure this path is correct
+import { Pet } from './models/pet';
 import { catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PetService {
-  private dataUrl = '/assets/data/pet-data.json'; // Local JSON file
+  private dataUrl = '/assets/data/pet-data.json';
 
   constructor(private http: HttpClient) { }
 
